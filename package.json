@@ -1,14 +1,14 @@
 {
-  "name": "an-old-hope-syntax",
+  "name": "slab-syntax",
   "theme": "syntax",
-  "version": "1.0.4",
-  "description": "Atom theme inspired by a galaxy far far away...",
+  "version": "1.0.0",
+  "description": "More Slab in life.",
   "keywords": [
     "syntax",
     "theme",
-    "star wars"
+    "slab"
   ],
-  "repository": "https://github.com/jesseleite/an-old-hope-syntax-atom",
+  "repository": "https://github.com/chengyin/slab-syntax-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.13 <2.0.0"

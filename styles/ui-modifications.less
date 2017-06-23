@@ -7,7 +7,7 @@
 
     .tree-view {
         &::before {
-            background: @artoo;
+            background: @blue;
         }
 
         .syntax--header.list-item,
@@ -19,7 +19,7 @@
     .tab-bar {
         .syntax--tab {
             &::before {
-                background: @artoo;
+                background: @blue;
             }
 
             .syntax--title {
@@ -31,7 +31,7 @@
             }
 
             .close-icon {
-                color: @artoo !important;
+                color: @blue !important;
             }
         }
     }
@@ -44,20 +44,20 @@
 
     .status-added,
     .status-added > .list-item {
-        color: @yoda !important;
+        color: @green !important;
     }
 
     .status-modified,
     .status-modified > .list-item {
-        color: @artoo !important;
+        color: @blue !important;
     }
 
     .status-removed {
-        color: @vader !important;
+        color: @red !important;
     }
 
     .status-renamed {
-        color: lighten(@luke, 10%) !important;
+        color: lighten(@pink, 10%) !important;
     }
 
     .status-ignored,
@@ -74,49 +74,49 @@
         }
 
         .deprecation-cop-status {
-            color: lighten(@luke, 10%);
+            color: lighten(@pink, 10%);
         }
 
         .package-updates-status-view {
-            color: @yoda;
+            color: @green;
         }
     }
 
     .settings-view {
         input[type="checkbox"]:checked {
-            background-color: @artoo;
+            background-color: @blue;
         }
 
         button.selected,
         .btn.btn-default.selected,
         .btn.btn-info {
-            background: @artoo;
+            background: @blue;
 
             &:hover {
-                background: lighten(@artoo, 10%);
+                background: lighten(@blue, 10%);
             }
         }
     }
 
     .btn.btn-primary {
-        background: @artoo;
+        background: @blue;
     }
 
     a.syntax--link {
-        color: @yoda;
+        color: @green;
 
         &:hover {
-            color: @yoda;
+            color: @green;
         }
     }
 
     atom-text-editor[mini].is-focused {
-        border-color: @artoo;
-        box-shadow: 0 0 0 1px @artoo;
+        border-color: @blue;
+        box-shadow: 0 0 0 1px @blue;
     }
 
     .syntax--tooltip {
-        @tooltips: @yoda;
+        @tooltips: @green;
 
         &.syntax--top .tooltip-arrow {
           border-top-color: @tooltips;
